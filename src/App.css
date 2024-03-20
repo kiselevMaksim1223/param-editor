@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.button{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 14px;
+}
